@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fetch API</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.js"></script>
+   
+<body>
+      <div class="container">
+        <div class="card card-body mt-5">
+            <h4>Dog Breeds</h4>
+            <hr>
+            <form id="form">
+                <div class="form-group">
+                    <label for="breeds">Select a breed</label>
+                    <select class="form-control" id="breeds">
+                      
+                    </select>
+                  </div>
+                  <div class="text-center" id="img">
+                    
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="comment">Comment</label>
+                    <textarea rows="5" cols="7" class="form-control" id="comment"></textarea>
+                  </div>
+                  <div class="">
+                      <input type="submit" value="Submit" class="btn btn-primary">
+                  </div>
+               </form>
+        </div>
+      </div>
+     <script src="js/bootstrap.min.js"></script>
+    <script src="js/fetchDogApi.js"></script>
+</body>
+</html>
